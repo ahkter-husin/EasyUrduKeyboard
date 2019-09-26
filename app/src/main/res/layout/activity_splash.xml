@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    tools:context=".SplashActivity">
+
+<com.github.ybq.android.spinkit.SpinKitView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/spinkit"
+    android:layout_width="@dimen/_45sdp"
+    android:layout_height="@dimen/_45sdp"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="@dimen/_70sdp"
+    style="@style/SpinKitView.FadingCircle"
+    app:SpinKit_Color="#4e2899">
+
+</com.github.ybq.android.spinkit.SpinKitView>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loading..."
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:textSize="@dimen/_18ssp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#4e2899"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="@dimen/_220sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_100sdp"
+        app:srcCompat="@drawable/appicon" />
+</RelativeLayout>
